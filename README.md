@@ -15,5 +15,3 @@ iBeacon Ranger is an iBeacon diagnostic tool for iOS and Android built with Phon
 6. Choose "Update Code" to pull in the latest committed code from the desired repository. PhoneGap Build will automatically build the app.
 7. Once build is complete, scan the QR code with an authorized mobile device, starting the install process.
 8. Joyfully range and monitor specified iBeacons in the area.
-
-###PhoneGap Usage (self-build)
