@@ -27,28 +27,10 @@ function BeaconMonitor() {
     //even when app is not active 
 	this.monitorBeacons = [
         {
-            identifier:'ib1',
-            uuid:'A495FF99-C5B1-4B44-B512-1370F02D74DE',
-            major:1,
-            minor:1
-        },
-        {
-            identifier:'ib2',
-            uuid:'A495FF99-C5B1-4B44-B512-1370F02D74DE',
-            major:1,
-            minor:2
-        },
-        {
-            identifier:'ib3',
-            uuid:'A495FF99-C5B1-4B44-B512-1370F02D74DE',
-            major:1,
-            minor:3
-        },
-        {
-            identifier:'ib4',
-            uuid:'A495FF99-C5B1-4B44-B512-1370F02D74DE',
-            major:1,
-            minor:4
+            identifier:'kontakt',
+            uuid:'f7826da6-4fa2-4e98-8024-bc5b71e0893e',
+            major:38112,
+            minor:6228
         }
     ];
 
@@ -85,64 +67,10 @@ function BeaconMonitor() {
         },
         */
         {
-            identifier:'onyx1',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:213,
-            minor:17163
-        },
-        {
-            identifier:'onyx2',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:213,
-            minor:16330
-        },
-        {
-            identifier:'onyx3',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:212,
-            minor:64096
-        },
-        {
-            identifier:'onyx4',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:213,
-            minor:25553
-        },
-        {
-            identifier:'onyx5',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:213,
-            minor:17671
-        },
-        {
-            identifier:'onyx6',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:213,
-            minor:27164
-        },
-        {
-            identifier:'onyx7',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:213,
-            minor:16351
-        },
-        {
-            identifier:'onyx8',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:212,
-            minor:65357
-        },
-        {
-            identifier:'onyx9',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:213,
-            minor:26374
-        },
-        {
-            identifier:'onyx10',
-            uuid:'20CAE8A0-A9CF-11E3-A5E2-0800200C9A66',
-            major:213,
-            minor:2617
+            identifier:'kontakt',
+            uuid:'f7826da6-4fa2-4e98-8024-bc5b71e0893e',
+            major:38112,
+            minor:6228
         }
     ];
 
