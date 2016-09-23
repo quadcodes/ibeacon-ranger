@@ -132,7 +132,7 @@ BeaconMonitor.prototype.resetReadings = function() {
         document.getElementById('rBeaconRangeLabel' + this.rangeBeacons[i].i).innerHTML = 'UNKNOWN';
         document.getElementById('rBeaconRange' + this.rangeBeacons[i].i).className = "col col-range range-unknown";
         document.getElementById('rBeaconStar' + this.rangeBeacons[i].i).className = "col col-star star-not";
-        //this.signalGraph.pushRangeData(this.signalGraph.minRSSI, 0, this.rangeBeacons[i].i);
+        this.signalGraph.pushRangeData(this.signalGraph.minRSSI, 0, this.rangeBeacons[i].i);
     }
 
     //monitor table
@@ -211,7 +211,7 @@ BeaconMonitor.prototype.setDeligate = function() {
             		//update graph with new data
             		try {
             			//this.logToDom(this.rangeBeacons[i].rssi + " : " + pluginResult.beacons[0].accuracy + " : " + this.rangeBeacons[i].i);
-            			//this.signalGraph.pushRangeData(this.rangeBeacons[i].rssi, pluginResult.beacons[0].accuracy, this.rangeBeacons[i].i);
+            			this.signalGraph.pushRangeData(this.rangeBeacons[i].rssi, pluginResult.beacons[0].accuracy, this.rangeBeacons[i].i);
             		} catch(err) {
             			this.logToDom(err);
             		}
@@ -311,8 +311,8 @@ BeaconMonitor.prototype.onDeviceReady = function() {
         this.startRangingBeacons();
 
         //init range signal strength graph
-        //this.signalGraph = new SignalGraph();
-        //this.signalGraph.init(this.rangeBeacons.length);
+        this.signalGraph = new SignalGraph();
+        this.signalGraph.init(this.rangeBeacons.length);
 
         //monitor
         this.createMonitorListMarkup();
