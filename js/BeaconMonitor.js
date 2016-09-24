@@ -25,7 +25,13 @@ function BeaconMonitor() {
     //note: requires ...requestAlwaysAuthorization() to work,
     //which could annoy user when app is ALWAYS monitoring
     //even when app is not active 
-	this.monitorBeacons = [
+	this.monitorBeacons = [        
+	{
+            identifier:'pBeacon',
+            uuid:'e1876979-75b5-43de-92cb-2bc1ad6ba999',
+            major:11000,
+            minor:18049
+        },
         {
             identifier:'kontakt',
             uuid:'f7826da6-4fa2-4e98-8024-bc5b71e0893e',
@@ -59,13 +65,13 @@ function BeaconMonitor() {
             major:1,
             minor:3
         },
-        {
-            identifier:'ib4',
-            uuid:'A495FF99-C5B1-4B44-B512-1370F02D74DE',
-            major:1,
-            minor:4
-        },
         */
+        {
+            identifier:'pBeacon',
+            uuid:'e1876979-75b5-43de-92cb-2bc1ad6ba999',
+            major:11000,
+            minor:18049
+        },
         {
             identifier:'kontakt',
             uuid:'f7826da6-4fa2-4e98-8024-bc5b71e0893e',
