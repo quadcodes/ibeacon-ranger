@@ -33,11 +33,19 @@ function BeaconMonitor() {
             minor:18049
         },
         {
+            identifier:'Hello',
+            uuid:'d0c026c3-e4f8-e79d-c5a8-c3f7b0f4c0c4',
+            major:123,
+            minor:456
+        },
+        /*
+        {
             identifier:'kontakt',
             uuid:'f7826da6-4fa2-4e98-8024-bc5b71e0893e',
             major:38112,
             minor:6228
         }
+        */
     ];
 
     //When app is active, track the distance from iBeacons,
@@ -65,6 +73,12 @@ function BeaconMonitor() {
             major:1,
             minor:3
         },
+        {
+            identifier:'kontakt',
+            uuid:'f7826da6-4fa2-4e98-8024-bc5b71e0893e',
+            major:38112,
+            minor:6228
+        },
         */
         {
             identifier:'pBeacon',
@@ -73,10 +87,10 @@ function BeaconMonitor() {
             minor:18049
         },
         {
-            identifier:'kontakt',
-            uuid:'f7826da6-4fa2-4e98-8024-bc5b71e0893e',
-            major:38112,
-            minor:6228
+            identifier:'Hello',
+            uuid:'d0c026c3-e4f8-e79d-c5a8-c3f7b0f4c0c4',
+            major:123,
+            minor:456
         }
     ];
 
